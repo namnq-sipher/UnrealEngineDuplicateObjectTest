@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{4A4E85F0-4051-29AE-2036-3A8ACF5A8F1C}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DuplicateObjectTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
