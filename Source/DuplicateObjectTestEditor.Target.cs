@@ -8,7 +8,8 @@ public class DuplicateObjectTestEditorTarget : TargetRules
 	public DuplicateObjectTestEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
+		BuildEnvironment = TargetBuildEnvironment.Shared;
 		ExtraModuleNames.AddRange( new string[] { "DuplicateObjectTest" } );
 	}
 }
